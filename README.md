@@ -12,12 +12,11 @@ To use the component import it like that :
 ```
 import Modal from 'modal-component-hrnet/Modal';
 ```
-
-We have 2 options : text and open.
+There are 2 options : text and open.
 Text is the string display in the modal.
-Open is a boolean, set it to true and the modal will be open, set it to false and the modal will be closed.
+Open is a boolean, set it on "true" and the modal will be open, set it on "false" to close it.
 
-Exemple :
+Example :
 ```
 const [isOpen, onChangeOpen] = useState(false);
 
